@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="background" prefHeight="361.0" prefWidth="411.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="changos.FXMLDocumentController">
+    <children>
+        <Button fx:id="button1" layoutX="111.0" layoutY="238.0" onAction="#handleButtonAction" text="aceptar" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="button2" layoutX="234.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleButtonAction1" prefHeight="25.0" prefWidth="58.0" text="mostrar" />
+      <Label fx:id="nombre" layoutX="85.0" layoutY="47.0" text="nombre" />
+      <Label fx:id="edad" layoutX="85.0" layoutY="103.0" text="edad" />
+      <TextField fx:id="label1" layoutX="189.0" layoutY="43.0" />
+      <TextField fx:id="label2" layoutX="189.0" layoutY="99.0" prefHeight="25.0" prefWidth="149.0" />
+    </children>
+</AnchorPane>
